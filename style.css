@@ -1,0 +1,98 @@
+.ch {
+    color: red;
+}
+.icon {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* Set the background color of body to tan */
+body {
+    background-color: tan;
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+.one, .two{
+    height: 250px;
+}
+
+.halloween{
+    padding-bottom: 15px;
+}
+.three, .four, .five, .six{
+    height: 100px;
+}
+
+h5 {
+    font-size: medium;
+    text-align: center;
+}
+
+.description {
+    font-size: small;
+    text-align:start;
+}
+
+.link {
+    font-size: small;
+}
+
+.podcast, .blog, .how {
+    font-size: small;
+}
+  }
+  
+
+
+
+
+
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+ .specials {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+ }
+
+.tea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    width: 80%;
+}
+.three, .four, .five , .six {
+    height: auto;
+}
+
+/* .link{
+    text-align: center;
+} */
+.podcast, .blog, .how {
+    padding-top: 20px
+}
+.community {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align:center;
+}
+
+
+ .icon{
+padding-left: 45%;
+  }
+}
